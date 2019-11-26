@@ -1,5 +1,2 @@
-export * from './Storage'
+export { Storage, getState, mutate, Action, SetStateAction, Dispatch } from 'stook'
 export * from './useStore'
-export * from './getState'
-export * from './mutate'
-export * from './types'
